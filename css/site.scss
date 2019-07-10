@@ -5,6 +5,24 @@
 
 $main-color: #24163b;
 
+.main-links a {
+    width: 280px;
+    height: 145px;
+    color: #ededed !important;
+    background-color: #4a4c75;
+    border-color: #27294a;
+    border-width: 5px;
+    margin-top: 3px;
+    padding-top: 3px;
+}
+
+.main-links  .small-print {
+  display: block;
+  font-size: small;
+  margin-top: 8px;
+  color: #ededed !important;
+}
+
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
