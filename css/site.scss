@@ -209,3 +209,41 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.twitter-box {
+    width: 300px;
+    float: left;
+    outline: 3px #b7b7b7 solid;
+    margin-right: 10px;
+}
+
+@media (max-width: 400px) {
+    #name-block {
+        font-size: 3em;
+    } 
+}
+
+
+.special-button {
+    height: 160px;
+    width: 200px;
+    display: block;
+    float: left;
+    border: 1px #cc7e45 solid;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px 5px 0px 5px;
+    background-color: #ffe5a694;
+    box-shadow: 3px 3px 5px -1px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.special-button:active {
+    box-shadow: 3px 3px 5px -1px rgba(0,0,0,0.6);
+}
+
+.special-button span {
+    font-weight: 800;
+}
